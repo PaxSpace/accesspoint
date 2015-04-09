@@ -1,0 +1,157 @@
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 09 Apr 2015 06:16:54 AM EDT
+
+BeginCmp
+TimeStamp = /551B1502;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B198D;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B1F05;
+Reference = C3;
+ValeurCmp = C;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B596D;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55256E44;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55257DF2;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55259A6D;
+Reference = P3;
+ValeurCmp = CONN_8;
+IdModule  = Connect:RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5525A9CC;
+Reference = P4;
+ValeurCmp = CONN_8;
+IdModule  = Connect:RJ45_8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5525E05A;
+Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = Discret:TO220GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5525E2BB;
+Reference = Q2;
+ValeurCmp = NPN;
+IdModule  = Discret:TO92PN;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B12AB;
+Reference = R1;
+ValeurCmp = R 3.3k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B18C1;
+Reference = R2;
+ValeurCmp = R 1k;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B1EFC;
+Reference = R3;
+ValeurCmp = R 370;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B146A;
+Reference = R4;
+ValeurCmp = R 470;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B185E;
+Reference = R5;
+ValeurCmp = R 330;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B1EF6;
+Reference = R6;
+ValeurCmp = R 220;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B5A4A;
+Reference = R7;
+ValeurCmp = R220;
+IdModule  = Discret:R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B0AFB;
+Reference = U1;
+ValeurCmp = LM317T;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B17E2;
+Reference = U2;
+ValeurCmp = LM317T;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B1EEF;
+Reference = U3;
+ValeurCmp = LM317T;
+IdModule  = Power_Integrations:TO-220;
+EndCmp
+
+BeginCmp
+TimeStamp = /552588DE;
+Reference = U4;
+ValeurCmp = Teensy_3.0;
+IdModule  = myLib:Teensy3.1;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B2BB1;
+Reference = U5;
+ValeurCmp = ESP8266;
+IdModule  = myLib:Teensy3.1;
+EndCmp
+
+EndListe
