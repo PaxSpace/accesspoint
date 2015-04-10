@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 09 Apr 2015 06:16:54 AM EDT
+Cmp-Mod V01 Created by Cvpcb (2014-jul-16 BZR unknown)-product   date = Thu 09 Apr 2015 08:42:01 PM EDT
 
 BeginCmp
 TimeStamp = /551B1502;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /5525E05A;
 Reference = Q1;
 ValeurCmp = MOS_N;
-IdModule  = Discret:TO220GDS;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
@@ -151,7 +151,7 @@ BeginCmp
 TimeStamp = /551B2BB1;
 Reference = U5;
 ValeurCmp = ESP8266;
-IdModule  = myLib:Teensy3.1;
+IdModule  = myLib:ESP8266;
 EndCmp
 
 EndListe

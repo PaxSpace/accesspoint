@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/bill/kicad/accessControl/accesspoint.sch)
-    (date "Wed 08 Apr 2015 10:13:02 PM EDT")
+    (date "Thu 09 Apr 2015 08:41:09 PM EDT")
     (tool "Eeschema (2014-jul-16 BZR unknown)-product"))
   (components
     (comp (ref U1)
@@ -280,14 +280,14 @@
         (pin (num 27) (name AGND) (type input))
         (pin (num 28) (name Vin) (type power_in)))))
   (libraries
-    (library (logical accesspoint_library)
-      (uri accesspoint_library.lib))
     (library (logical device)
       (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical regul)
-      (uri /usr/share/kicad/library/regul.lib)))
+      (uri /usr/share/kicad/library/regul.lib))
+    (library (logical accesspoint_library)
+      (uri accesspoint_library.lib)))
   (nets
     (net (code 1) (name "Net-(P3-Pad5)")
       (node (ref U4) (pin 19))
