@@ -1,1 +1,15 @@
-Software written for the hardware shall be kept here
+Hookup the following:
+
+9,8,7,6,5,4,3 = keypad (left to right)
+
+10 = speaker pin
+
+11 = door pin
+
+Use a transistor and a 47 ohm resistor for the speaker off of the 12 volt power
+
+Use a power level N-channel mosfet for the door.
+
+Big tip, be mindful of your 12 v power supplies... The arduino mini pro (5v atmega328 16MHz used here) likes to reset when the input voltage isn't clean... Wasted at least 2 hours trying to troubleshoot that problem.
+
+Be sure to change the adminPin at the top of the source file. This is the pin that you can use to change the normal user pin.
